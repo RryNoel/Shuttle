@@ -1,0 +1,384 @@
+@font-face {
+    font-family: 'Pretendard-Light';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard-SemiBold';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BMEULJIRO';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/BMEULJIRO.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+button {
+    border: 0;
+    outline: none;
+}
+
+input {
+    border: 0;
+    outline: none;
+}
+
+li {
+    list-style: none;
+}
+
+.Clear {
+    clear: both;
+}
+
+
+
+/* header 절취선--------------------------------------------------------------------------- */
+
+
+
+.hdr {
+    max-width: 1920px;
+    height: 75px;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
+.hdr2 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+.hdr2 .hdr2_L {
+    float: left;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+
+
+.hdr2 .hdr2_P {
+    float: right;
+    font-family: 'Pretendard-Regular';
+    margin-top: 19px;
+}
+
+.hdr2 .hdr2_P h2 {
+    display: inline-block;
+    font-size: 20px;
+    color: #424242;
+    margin-left: 10px;
+}
+
+.hdr2 .hdr2_P h2:hover {
+    color: #faa61a;
+}
+
+.hdr2 .hdr2_P h1 {
+    display: inline-block;
+    font-size: 20px;
+    color: #faa61a;
+    border: 1.8px solid #faa61a;
+    border-radius: 15px;
+    padding: 4px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.hdr2 .hdr2_P h1:hover {
+    background-color: #faa61a;
+    color: white;
+}
+
+
+/* main 절취선--------------------------------------------------------------------------- */
+
+
+.msg {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.msg_1 {
+    max-width: 1920px;
+    height: 100vh;
+    background-image: url(./img/background.jpg);
+}
+
+.msg_11 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+.msg1_T {
+    float: left;
+}
+
+.msg1_T h1 {
+    display: inline-block;
+    font-family: 'BMEULJIRO';
+    cursor: default;
+    font-size: 100px;
+    color: white;
+    text-shadow: 6px 8px 2px rgb(0, 0, 0, 0.6);
+    margin-top: 60px;
+    opacity: 0;
+}
+
+
+
+.msg1_I {
+    float: right;
+    margin-right: 90px;
+    margin-top: 100px;
+}
+
+.msg1_I img {
+    margin-left: 8px;
+}
+
+
+
+.msg1_P {
+    float: left;
+    margin-left: 150px;
+    margin-top: 80px;
+    opacity: 0;
+    transition: 1s;
+    transform: translateX(-300px);
+}
+
+.msg1_P h2 {
+    font-family: 'BMEULJIRO';
+    font-weight: 100;
+    font-size: 50px;
+    cursor: default;
+    color: white;
+    text-shadow: 6px 2px 2px rgb(0, 0, 0, 0.6);
+    margin-left: 30px;
+}
+
+.msg1_P h3 {
+    width: 350px;
+    height: 65px;
+    font-family: 'Pretendard-Regular';
+    font-size: 30px;
+    color: #faa61a;
+    background-color: #181818;
+    border: 2px solid #afafaf;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 28px;
+    margin-top: 15px;
+}
+
+
+
+.msg1_A {
+    float: left;
+    margin-left: 200px;
+    margin-top: 80px;
+    opacity: 0;
+    transition: 1s;
+    transform: translateX(300px);
+}
+
+.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.msg1_A h2 {
+    font-family: 'BMEULJIRO';
+    font-weight: 100;
+    font-size: 50px;
+    cursor: default;
+    color: white;
+    text-shadow: 6px 2px 2px rgb(0, 0, 0, 0.6);
+}
+
+.msg1_A img {
+    width: 350px;
+    height: 104px;
+    margin-top: 10px;
+}
+
+
+
+.msg1_S span {
+    float: left;
+    font-family: 'BMEULJIRO';
+    width: 1200px;
+    font-size: 26px;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+/* main2 절취선--------------------------------------------------------------------------- */
+
+
+.msg_2 {
+    max-width: 1920px;
+    height: 100vh;
+    background-color: #ffa91a;
+}
+
+.msg_22 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+.msg2_T {
+    font-family: 'BMEULJIRO';
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.msg2_T h1 {
+    font-size: 100px;
+    color: white;
+    text-shadow: 6px 8px 2px rgb(0, 0, 0, 0.6);
+}
+
+
+
+.msg2_P {
+    font-family: 'BMEULJIRO';
+    text-align: center;
+}
+
+.msg2_P h2 {
+    color: white;
+    font-size: 26px;
+    text-shadow: 3px 2px 1px rgb(0, 0, 0, 0.6);
+    margin-top: 5px;
+}
+
+.msg2_P img {
+    width: 580px;
+    height: auto;
+    margin-top: 50px;
+}
+
+
+/* footer 절취선--------------------------------------------------------------------------- */
+
+
+.ftr {
+    max-width: 1920px;
+    height: 200px;
+    background-color: #4d4d4d;
+    margin: 0 auto;
+}
+
+.ftr2 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+.ftr2 .ftr2_L {
+    float: left;
+    margin-left: 98px;
+    margin-top: 34px;
+    margin-right: 30px;
+}
+
+.ftr2 .ftr2_L img {
+    width: 70px;
+    height: 65px;
+}
+
+
+
+.ftr2 .ftr2_S li {
+    float: left;
+    margin-left: 10px;
+    margin-top: 52px;
+}
+
+.ftr2 .ftr2_S a {
+    color: #c1c1c1;
+}
+
+.ftr2 .ftr2_S a:hover {
+    color: #e0e0e0;
+}
+
+.ftr2 .ftr2_S .Sline {
+    float: left;
+    width: 1.2px;
+    height: 20px;
+    background-color: #c1c1c1;
+    margin-left: 10px;
+    margin-top: 54px;
+}
+
+
+
+.ftr2 .ftr2_D {
+    float: left;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.ftr2 .ftr2_D img {
+    width: 160px;
+    height: auto;
+    margin-left: 20px;
+}
+
+.ftr2 .ftr2_D img:hover {
+    cursor: pointer;
+}
+
+
+
+.ftr2 .ftr2_A {
+    margin-top: 23px;
+    text-align: center;
+}
+
+.ftr2 .ftr2_A span {
+    color: #c1c1c1;
+}
